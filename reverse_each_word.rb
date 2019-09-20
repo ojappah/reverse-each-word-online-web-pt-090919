@@ -1,6 +1,6 @@
 sentence = ["Hello there, and how are you?"]
 def reverse_each_word(sentence)
-sentence.
+sentence.each.reverse{|words| new_sentence << reverse_each_word(sentence)}
 sentence = ["Hello there, and how are you?"]
 def reverse_each_word(sentence)
   new_sentence =[]
