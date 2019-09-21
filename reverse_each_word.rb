@@ -19,7 +19,7 @@ def reverse_each_word(sentence)
 
 def reverse_each_word(sentence)
   new_sentence =[]
-  sentence.each do |words| new_sentence << words
+  sentence.split('').each do |words| new_sentence << words
     puts words.reverse
   end
 end
