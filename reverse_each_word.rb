@@ -14,6 +14,14 @@ def reverse_each_word(sentence)
   sentence.each {|words| new_sentence << e_each_word(sentence)}
     return new_sentence.reverse
   end
+  
+  
+  sentence = ["Hello there, and how are you?"]
+def reverse_each_word(sentence)
+  sentence.each do |words| << new_sentence
+    puts words.reverse
+  end
+end
 
 
 
